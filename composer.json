@@ -1,0 +1,22 @@
+{
+    "name": "rltsquare/core",
+    "description": "",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Wasim Bajwa",
+            "email": "wasim.bajwa@rltsquare.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "RLTSquare\\Core\\": ""
+        }
+    }
+}
